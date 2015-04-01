@@ -29,7 +29,10 @@ end
 
 group :development do
   gem 'sqlite3'
+  gem 'better_errors'
 end
+
+gem 'binding_of_caller'
 
 gem 'bootstrap-sass'
 
