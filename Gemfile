@@ -32,6 +32,10 @@ group :development do
   gem 'better_errors'
 end
 
+group :development, :production do
+  gem 'puma'
+end
+
 gem 'binding_of_caller'
 
 gem 'bootstrap-sass'
